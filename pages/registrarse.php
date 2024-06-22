@@ -17,11 +17,11 @@
                 <nav class="navMenu">
                         <ul class="menu">
                             <li>
-                                <a href="../index.html">INICIO</a>
+                                <a href="../index.php">INICIO</a>
                             </li>
 
                             <li>
-                                <a href="./descripcion_proyecto.html">PROYECTOS</a>
+                                <a href="./descripcion_proyecto.php">PROYECTOS</a>
                             </li>
                             
                             <li>
@@ -29,7 +29,7 @@
                             </li>
                         
                             <li>
-                                <a href="./iniciar_sesion.html">MI CUENTA</a>
+                                <a href="./iniciar_sesion.php">MI CUENTA</a>
                             </li>
                             
                         </ul>
@@ -39,7 +39,7 @@
                 <nav class="navRedes">
                     <ul class=redes>
                         <li>
-                            <a href="../pages/iniciar_sesion.html">
+                            <a href="../pages/iniciar_sesion.php">
                                 <i class="fa-brands fa-square-instagram"></i>
                             </a>
                         </li>

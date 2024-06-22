@@ -17,7 +17,7 @@
                 <nav class="navMenu">
                         <ul class="menu">
                             <li>
-                                <a href="../index.html">INICIO</a>
+                                <a href="../index.php">INICIO</a>
                             </li>
 
                             <li>
@@ -25,11 +25,11 @@
                             </li>
                             
                             <li>
-                                <a href="./registrarse.html">REGISTRO</a>
+                                <a href="./registrarse.php">REGISTRO</a>
                             </li>
                         
                             <li>
-                                <a href="./iniciar_sesion.html">MI CUENTA</a>
+                                <a href="./iniciar_sesion.php">MI CUENTA</a>
                             </li>
                             
                         </ul>

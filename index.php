@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -24,15 +27,15 @@
                     </li>
 
                     <li>
-                        <a href="./pages/descripcion_proyecto.html">PROYECTOS</a>
+                        <a href="./pages/descripcion_proyecto.php">PROYECTOS</a>
                     </li>
 
                     <li>
-                        <a href="pages/registrarse.html">REGISTRO</a>
+                        <a href="pages/registrarse.php">REGISTRO</a>
                     </li>
 
                     <li>
-                        <a href="pages/iniciar_sesion.html">MI CUENTA</a>
+                        <a href="pages/iniciar_sesion.php">MI CUENTA</a>
                     </li>
 
                 </ul>
@@ -42,7 +45,7 @@
             <nav class="navRedes">
                 <ul class=redes>
                     <li>
-                        <a href="./pages/iniciar_sesion.html">
+                        <a href="./pages/iniciar_sesion.php">
                             <i class="fa-brands fa-square-instagram"></i>
                         </a>
                     </li>
@@ -98,6 +101,14 @@
     </section>
 
     <main id="main">
+
+   <h2> <?php
+// Código PHP aquí
+$moneda["argentina"]="Peso";
+$moneda["francia"]="Euro";
+$moneda["usa"]="Dolar";
+echo" ".$moneda["argentina"]."<br>".$moneda["francia"]."<br>".$moneda["usa"]
+?></h2>
         <section class="principal">
             <h1>
                 Máquinas y herramientas
@@ -115,7 +126,7 @@
             </h2>
             <div class="herramientasProyectos">
                 <div>
-                    <a href="./pages/descripcion_proyecto.html">
+                    <a href="./pages/descripcion_proyecto.php">
                         <img src="./assets/img/Proyectos/Albañileria/albañileria.jpg" alt="imagen de herramientas eléctricas">
                     </a>
                     <h3>
@@ -133,7 +144,7 @@
                 </div>
 
                 <div>
-                    <a href="./pages/descripcion.html">
+                    <a href="./pages/descripcion.php">
                         <img src="./assets/img/Proyectos/Soldador/soldador.jpg" alt="imagen de herramientas de jardín">
                     </a>
 
@@ -141,7 +152,7 @@
                 </div>
 
                 <div>
-                    <a href="./pages/descripcion.html">
+                    <a href="./pages/descripcion.php">
                         <img src="./assets/img/Proyectos/Jardin/jardineria.webp" alt="imagen de herramientas de jardín">
                     </a>
 
@@ -155,7 +166,7 @@
                     <h3>Plomería</h3>
                 </div>
                 <div>
-                    <a href="./pages/descripcion.html">
+                    <a href="./pages/descripcion.php">
                         <img src="./assets/img/Proyectos/Carpinteria_en_madera/carpinteria.jpg" alt="imagen de herramientas de jardín">
                     </a>
 
@@ -163,7 +174,7 @@
                 </div>
 
                 <div>
-                    <a href="./pages/descripcion.html">
+                    <a href="./pages/descripcion.php">
                         <img src="./assets/img/Proyectos/Instalaciones eléctricas/instalaciones_electricas.jpg" alt="imagen de herramientas de jardín">
                     </a>
 
@@ -171,7 +182,7 @@
                 </div>
 
                 <div>
-                    <a href="./pages/descripcion.html">
+                    <a href="./pages/descripcion.php">
                         <img src="./assets/img/Proyectos/Construccion_en_seco/placas.jpeg" alt="imagen con herramientas utilizadas en la construcción en seco">
                     </a>
                     <h3>Construcción en seco</h3>
@@ -184,6 +195,7 @@
                 </div>
             </div>
             <hr>
+           <?php echo "Hola, mundo!"; ?>
         </section>
 
         <section class="loMasBuscado">
