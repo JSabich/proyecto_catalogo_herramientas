@@ -1,5 +1,6 @@
-
-
+<?php
+echo "<h1>Hola mundo !!!!!</h1>";
+?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -8,6 +9,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catálogo de Herramientas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
     <script src="https://kit.fontawesome.com/35835e09d4.js" crossorigin="anonymous"></script>
@@ -31,11 +33,11 @@
                     </li>
 
                     <li>
-                        <a href="pages/registrarse.php">REGISTRO</a>
+                        <a href="./pages/registrarse.php">REGISTRO</a>
                     </li>
 
                     <li>
-                        <a href="pages/iniciar_sesion.php">MI CUENTA</a>
+                        <a href="./pages/administrador.php">ADMINISTRADOR</a>
                     </li>
 
                 </ul>
@@ -104,9 +106,7 @@
 
    <h2> <?php
 // Código PHP aquí
-$moneda["argentina"]="Peso";
-$moneda["francia"]="Euro";
-$moneda["usa"]="Dolar";
+$moneda=array("argentina"=> "Peso","francia" => "Euro","usa" => "Dolar");
 echo" ".$moneda["argentina"]."<br>".$moneda["francia"]."<br>".$moneda["usa"]
 ?></h2>
         <section class="principal">
@@ -342,6 +342,7 @@ echo" ".$moneda["argentina"]."<br>".$moneda["francia"]."<br>".$moneda["usa"]
             <i class="fa-brands fa-square-whatsapp"></i>
         </a>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
 </html>

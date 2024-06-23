@@ -24,7 +24,7 @@
 
 body {
     background-color: var(--main-color);
-    background-image: url("../assets/img/Para_fondo/fondo_gris.jpg") ;
+    background-image: url("../assets/img/Para_fondo/maderas.jpg") ;
     background-size: contain;
     max-width: 99vw;
     z-index: -10;
